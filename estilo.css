@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.fundo {
+	position: relative;
+	height: 80vh;
+	background: linear-gradient(to right, #00c3d1 0%,#005cd1 100%);
+}
+.logo {
+	position: absolute; /*para o elemento ficar a frente do texto*/
+	top: 20px;
+	left: 20px;
+}
+
+.bolaroxa {
+	width: 282px;
+	height: 255px;
+	background-image: url("imagens/bolaroxa.png");
+	background-repeat: no-repeat;
+	background-position: top left; 
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 5; /* posição do objeto no eixo z*/
+}
+.bolaroxa ul {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	display: flex;
+	list-style: none;
+}
+
+.bolaroxa ul li {
+	margin-left: 20px;
+}
+
+.mao {
+	position: absolute;
+	left: 17%;
+	bottom: 0;
+	width: 320px;
+}
+
+.fundo .texto {
+	position: absolute;
+	left: 42%;
+	width: 400px;
+	bottom: 150px;
+	color: white;
+	font-family: Arial;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.fundo .texto h1 {
+	font-size: 60px;
+	margin-top: 0;
+}
+
+.bolaazul {
+	width: 194px;
+	height: 400px;
+	background-image: url("imagens/bolaazul.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+}
